@@ -2,12 +2,12 @@
 Front End do projeto Pauli Bus
 
 
-<h1>End Point</h1>  
-``` 
-https://paulibus.herokuapp.com/linhas
-teste
-```
+O exercicio consiste criar um website utilizando HTML / CSS / JAVASCRIPT que retorne de forma formatada ( Você escolhe o estilo coleguinha ), as informações da url a baixo. 
 
+<h1>End Point</h1>  
+https://paulibus.herokuapp.com/linhas
+
+Retorno de exemplo:
 ```json
 {
 	"Horarios": [{
