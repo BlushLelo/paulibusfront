@@ -6,7 +6,7 @@ O exercicio consiste criar um website utilizando HTML / CSS / JAVASCRIPT que ret
 
 <h1>End Point</h1>  
 https://paulibus.herokuapp.com/linhas
-
+<br>
 Retorno de exemplo:
 ```json
 {
