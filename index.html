@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <title> Aqui você coloca o titulo da sua página</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/handlebars-v4.0.11.js"> </script>
+    <script src="js/jquery-3.3.1.min.js"> </script>
+    <script src="js/function.js"> </script>
+
 </head>
 <body>
     <section class="Linhas">
         <div>
-            Adicione o necessário pra completar o exercício aqui
+            <script id="linhas-template" type="text/x-handlebars-template">
+                   {{#each this}}
+                        {{LocalDestino}}
+                   {{/each}}
+            </script>
+            <div class="conteudo"></div>
         </div>
     </section>
 </body>
