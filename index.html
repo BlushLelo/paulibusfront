@@ -13,9 +13,14 @@
     <section class="Linhas">
         <div>
             <script id="linhas-template" type="text/x-handlebars-template">
-                   {{#each this}}
-                        {{LocalDestino}}
+                   <select class="icon-arrow-down">
+                    {{#each this}}
+                        <option value="{{Numero}}">{{Numero}} - {{LocalDestino}}</option>
+                        <div class="container">
+                            {{Horarios}}
+                        </div>
                    {{/each}}
+                   </select>
             </script>
             <div class="conteudo"></div>
         </div>
